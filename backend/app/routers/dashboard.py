@@ -76,11 +76,15 @@ def get_dashboard_summary(
     insights = get_anomaly_insights(project_list, employee_hours)
     
     # RBAC Privacy Control: Mask financial data if role is not Admin
+    recent_meetings = sorted(filtered_meetings, key=lambda x: x.get("start_time", ""), reverse=True)[:10]
+    
     if x_user_role and x_user_role.lower() == "employee":
         total_cost = 0
         project_list = [{"id": p["id"], "name": p["name"], "cost": 0, "budget": 0} for p in project_list]
         role_list = [] # Employees cannot see cost by department
         insights = "Financial insights are restricted to Admin users."
+        for m in recent_meetings:
+            m["total_cost"] = 0
     
     return {
         "total_cost": total_cost,
@@ -89,5 +93,6 @@ def get_dashboard_summary(
         "cost_by_project": project_list,
         "cost_by_role": role_list,
         "insights": insights,
-        "role_detected": x_user_role or "None"
+        "role_detected": x_user_role or "None",
+        "recent_meetings": recent_meetings
     }

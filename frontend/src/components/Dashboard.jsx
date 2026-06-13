@@ -207,6 +207,60 @@ export default function Dashboard({ privacyMode, userRole }) {
         </div>
       </div>
 
+      {/* Recent AI Attributions */}
+      <div className="card flex flex-col gap-4">
+        <h3 className="font-semibold text-lg text-slate-800 flex items-center gap-2">
+          Recent AI Attributions
+        </h3>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-slate-50 text-slate-500 uppercase">
+              <tr>
+                <th className="px-4 py-3 rounded-tl-lg">Meeting Title</th>
+                <th className="px-4 py-3">Data Source</th>
+                <th className="px-4 py-3">Assigned Project</th>
+                <th className="px-4 py-3 text-center">Confidence</th>
+                <th className="px-4 py-3 text-right">Cost</th>
+                <th className="px-4 py-3 rounded-tr-lg">AI Reasoning</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-100">
+              {data?.recent_meetings?.length > 0 ? (
+                data.recent_meetings.map((m) => {
+                  const source = String(m.id).includes('-') ? 'Manual Entry' : 'Google Calendar';
+                  return (
+                    <tr key={m.id} className="hover:bg-slate-50">
+                      <td className="px-4 py-3 font-medium text-slate-800">{m.title}</td>
+                      <td className="px-4 py-3">
+                        <span className={`px-2 py-1 rounded text-xs font-medium ${source === 'Google Calendar' ? 'bg-blue-100 text-blue-800' : 'bg-slate-100 text-slate-800'}`}>
+                          {source}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3">{m.project_id}</td>
+                      <td className="px-4 py-3 text-center">
+                        <span className={`px-2 py-1 rounded text-xs font-medium ${m.ai_confidence > 85 ? 'bg-green-100 text-green-800' : m.ai_confidence > 60 ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`}>
+                          {m.ai_confidence}%
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-right font-medium">{formatCurrency(m.total_cost)}</td>
+                      <td className="px-4 py-3 text-slate-500 text-xs max-w-xs truncate" title={m.ai_reasoning}>
+                        "{m.ai_reasoning}"
+                      </td>
+                    </tr>
+                  );
+                })
+              ) : (
+                <tr>
+                  <td colSpan="6" className="px-4 py-8 text-center text-slate-500">
+                    No recent attributions found. Trigger AI ingestion.
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       {/* Add Meeting Modal */}
       {showAddModal && (
         <div className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">

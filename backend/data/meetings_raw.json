@@ -1,141 +1,140 @@
 [
   {
-    "id": "meet_001",
-    "title": "Alpha Arch Sync",
-    "description": "Discussing the cloud migration strategy for Alpha and reviewing AWS architecture diagrams.",
-    "start_time": "2026-06-10T10:00:00Z",
-    "duration_minutes": 60,
+    "id": "ppsjebin1raq2ab1se1uvuq80s",
+    "title": "Meet the Professionals - June 2026",
+    "description": "Join the event at: https://konfhub.com/meet-the-professionals",
+    "start_time": "2026-05-24T00:00:00+05:30",
+    "duration_minutes": 31680,
     "attendees": [
-      "emp_1",
-      "emp_2"
-    ]
-  },
-  {
-    "id": "meet_002",
-    "title": "Beta App Wireframes Review",
-    "description": "Reviewing the new mobile app wireframes with product.",
-    "start_time": "2026-06-11T14:00:00Z",
-    "duration_minutes": 45,
-    "attendees": [
-      "emp_2",
-      "emp_3"
-    ]
-  },
-  {
-    "id": "meet_003",
-    "title": "Data Pipeline Standup",
-    "description": "Daily standup for the Gamma team.",
-    "start_time": "2026-06-12T09:30:00Z",
-    "duration_minutes": 15,
-    "attendees": [
-      "emp_1",
-      "emp_5"
-    ]
-  },
-  {
-    "id": "meet_004",
-    "title": "Security Training",
-    "description": "Mandatory annual security training for all staff.",
-    "start_time": "2026-06-12T13:00:00Z",
-    "duration_minutes": 120,
-    "attendees": [
-      "emp_1",
+      "emp_4",
       "emp_2",
       "emp_3",
-      "emp_4",
-      "emp_5"
+      "emp_5",
+      "emp_1"
     ]
   },
   {
-    "id": "meet_005",
-    "title": "Quick catchup on Beta bugs",
-    "description": "Sorting out the bug list for the upcoming beta release.",
-    "start_time": "2026-06-13T10:00:00Z",
-    "duration_minutes": 30,
+    "id": "51jcg8phmheqogi6dfkpm0ksd8",
+    "title": "Train to SECUNDERABAD JN (SC)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DNgDevKV2sVeJVkoOs78E31ke-aj1yPPeU\n",
+    "start_time": "2026-05-31T23:10:00+05:30",
+    "duration_minutes": 1020,
     "attendees": [
       "emp_1",
+      "emp_5",
+      "emp_3",
+      "emp_2",
       "emp_4"
     ]
   },
   {
-    "id": "meet_006",
-    "title": "Vague Discussion",
-    "description": "Let's touch base about the things we talked about yesterday.",
-    "start_time": "2026-06-13T15:00:00Z",
-    "duration_minutes": 60,
+    "id": "i6s1u2bf418fii3kbd1i35nlog",
+    "title": "Train to NAGPUR (NGP)",
+    "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DN6_TK--CatJUk1lHIKwrqHRI8OpYFb3H8\n",
+    "start_time": "2026-06-02T09:15:00+05:30",
+    "duration_minutes": 320,
     "attendees": [
+      "emp_5",
       "emp_2",
       "emp_3"
     ]
   },
   {
-    "id": "f209cb01-2202-4494-9200-a0081d4d7c6c",
-    "title": "Project Alpha Sync",
-    "description": "Discussing the new UI rollout",
-    "start_time": "2026-06-13T08:23:49.191209Z",
-    "duration_minutes": 30,
+    "id": "71ij6d1jccoj0bb16cpjab9k6kqm4bb168q34bb56hgm2chp64sj6o9nck",
+    "title": "FHE 101 : Hyderabad Edition",
+    "description": "Get up-to-date information at: https://luma.com/9i0athb5?pk=g-olLr30BOsHGLcT8\n\nAddress:\nDraperU India (Formerly Draper Startup House Hyderabad)\nHyderabad, India\n\nJoin us in Hyderabad for an interactive FHE workshop by Fhenix India\nWe\u2019ll go from blockchain and FHE fundamentals all the way to deploying your first encrypted smart contract on testnet, all in one session\nBuilt for students, developers and curious builders exploring the future of encrypted computation\nSee you there if privacy matters to you ;)\n\nHosted by Mandar Pandagale, Sahil More & Hyderabad DAO",
+    "start_time": "2026-06-05T17:00:00+05:30",
+    "duration_minutes": 180,
     "attendees": [
-      "emp_1"
+      "emp_4",
+      "emp_3",
+      "emp_5"
     ]
   },
   {
-    "id": "2564331e-2652-46b7-8b43-abe41b8916f8",
-    "title": "Project Alpha Sync",
-    "description": "Discussing the new UI rollout",
-    "start_time": "2026-06-13T08:24:09.191331Z",
-    "duration_minutes": 30,
+    "id": "_clr78ba66prmcmb48hll4gq9e1rlgs20clr6arjkecn6ot9edlgg",
+    "title": "FHE 101 : Hyderabad Edition",
+    "description": "Get up-to-date information at: https://luma.com/9i0athb5?pk=g-olLr30BOsHGLcT8\n\nAddress:\nDraperU India (Formerly Draper Startup House Hyderabad)\nHyderabad, India\n\nJoin us in Hyderabad for an interactive FHE workshop by Fhenix India\nWe\u2019ll go from blockchain and FHE fundamentals all the way to deploying your first encrypted smart contract on testnet, all in one session\nBuilt for students, developers and curious builders exploring the future of encrypted computation\nSee you there if privacy matters to you ;)\n\nHosted by Mandar Pandagale, Sahil More & Hyderabad DAO",
+    "start_time": "2026-06-05T17:00:00+05:30",
+    "duration_minutes": 180,
     "attendees": [
-      "emp_1"
+      "emp_4",
+      "emp_5",
+      "emp_2",
+      "emp_1",
+      "emp_3"
     ]
   },
   {
-    "id": "9dc7b6a0-e3ac-49a6-a056-0e256703ddd9",
-    "title": "Project Alpha Sync",
-    "description": "Discussing the new UI rollout",
-    "start_time": "2026-06-13T08:24:52.734550Z",
-    "duration_minutes": 30,
+    "id": "_clr78bbga9r4alq691i6iq29ep7mmrq0clr6arjkecn6ot9edlgg",
+    "title": "FHE BUIDL : Hyderabad",
+    "description": "Get up-to-date information at: https://luma.com/pwk3un7z?pk=g-JBQpqtCihgkWtRf\n\nAddress:\nDraperU India (Formerly Draper Startup House Hyderabad)\nHyderabad, India\n\nHosted by Mandar Pandagale, Sahil More & Hyderabad DAO",
+    "start_time": "2026-06-06T10:00:00+05:30",
+    "duration_minutes": 600,
     "attendees": [
-      "emp_1"
+      "emp_4",
+      "emp_3"
     ]
   },
   {
-    "id": "d7ec486e-f101-4198-b27d-9c381e519c79",
-    "title": "string",
-    "description": "string",
-    "start_time": "2026-06-13T08:29:05.677191Z",
-    "duration_minutes": 0,
+    "id": "c4s62d1o6srj6b9kc9hj6b9kcop3ebb1c4q6ab9hcoqjccj171h38chh6o",
+    "title": "Swift Hyderabad WWDC26 Watch Party",
+    "description": "Get up-to-date information at: https://luma.com/v8d19gd7?pk=g-7XonCN2whObIXTr\n\nAddress:\nSonatype India - Hyderabad\n4th Floor\nHyderabad, India\n\nHey there!\nCome join the Swift Hyderabad community for an exciting in-person watch party of Apple\u2019s most eagerly awaited event of the year \u2014 WWDC26!\nWe\u2019ll be streaming the keynote live together and diving into all the amazing announcements across Apple platforms, including iOS, macOS, visionOS, and the latest in AI.\nWhat\u2019s Planned:\nLive Keynote Streaming \u2013 Catch the WWDC25 keynote as it unfolds\nFood and Conversations \u2013 Savour some light snacks and enjoy fantastic company\nNetworking Opportunities \u2013 Connect with fellow tech enthusiasts from the Hyderabad community\nDiscussion Sessions \u2013 Share\u2026\n\nHosted by Swift Hyderabad & 4 others",
+    "start_time": "2026-06-08T20:00:00+05:30",
+    "duration_minutes": 270,
     "attendees": [
-      "string"
+      "emp_5",
+      "emp_3"
     ]
   },
   {
-    "id": "b3f197a0-b7e9-4960-8038-9c6e1bf7acb5",
-    "title": "string",
-    "description": "string",
-    "start_time": "2026-06-13T08:29:42.971537Z",
-    "duration_minutes": 0,
+    "id": "6co3cp1jcdimabb56gr66b9k71hjabb1cpimcb9n74rjgor570ojap1gck",
+    "title": "Buildathon - in association with Masters' Union, hosted by React Hyderabad",
+    "description": "<p><strong><em>Buildathon - in association with Masters' Union, hosted by React Hyderabad</em></strong></p><p><strong style=\"color: rgb(10, 10, 10);\">This buildathon is strictly for working professionals and 2026 graduates from any domain.</strong></p><p><strong>One Full Day. Real Business Problems. AI-Powered Solutions - </strong></p><p><br></p><p>A full-day AI buildathon for working professionals and 2026 graduates to solve real-world business problems using AI tools.</p><p><br></p><p>Participants will work on practical business problem statements, build hands-on, use free Google Cloud credits, deploy their projects, and showcase their solutions by the end of the day.</p><p>Top participants will receive cash prizes and special rewards.</p><p><br></p><p><strong>What to expect:</strong></p><p>1- Real-world business problem statements</p><p>2- AI tools, mentors, and hands-on building</p><p>3- Free Cloud credits for participants</p><p>4- Build, deploy, and showcase your project</p><p>5- Cash prizes and special rewards for top participants</p><p><br></p><p><strong>Participation Rules:</strong></p><p><strong>1- This buildathon is strictly for working professionals and 2026 graduates from any domain.</strong></p><p>2- No on-spot registrations will be allowed. Only approved attendees can join the event.</p><p><br></p><p><br></p><p>Partners supporting this experience</p><p>1- <strong>Event Sponsor</strong> - Masters' Union</p><p>2- <strong>Community Partners</strong>: Juicer Technology, CodeQuesters, Innovators Club Sphere, DevRelSquad</p><p>3- <strong>Platform Partner</strong> - GoAvo.ai</p>",
+    "start_time": "2026-06-13T10:00:00+05:30",
+    "duration_minutes": 480,
     "attendees": [
-      "string"
+      "emp_2",
+      "emp_5",
+      "emp_4",
+      "emp_1",
+      "emp_3"
     ]
   },
   {
-    "id": "e01d793a-58eb-4bba-a47c-e8f523c3babc",
-    "title": "Payment Gateway Sprint Planning",
-    "description": "Discussion about payment processing bugs and Razorpay integration",
-    "start_time": "2026-06-13T08:29:48.537943Z",
-    "duration_minutes": 60,
+    "id": "avnkuf86g6u1jl017vh2dlpkgc",
+    "title": "Cloud Native Hyderabad x Qualcomm - Let's Discuss AI & Cloud Native",
+    "description": "This event aims to bring together the local cloud-native community to discuss emerging trends in Edge computing, AI integration, and hybrid infrastructure.",
+    "start_time": "2026-06-13T10:00:00+05:30",
+    "duration_minutes": 300,
     "attendees": [
-      "emp_1"
+      "emp_1",
+      "emp_2",
+      "emp_4"
     ]
   },
   {
-    "id": "64e1a0b5-aa35-43f8-ad9d-ed16e2e366af",
-    "title": "Employee Wellness Initiative",
-    "description": "Planning mental health sessions and wellness programs for employees",
-    "start_time": "2026-06-13T08:31:23.827280Z",
-    "duration_minutes": 45,
+    "id": "60qj0ob369i36b9hc5ijgb9kcli36b9p6orj0b9i69ij0dj465h3edb36k",
+    "title": "Agentic Testers Day Hyderabad",
+    "description": "Modern testing needs to be faster, smarter, and more adaptive. Agentic Testing brings AI-powered agents into the testing lifecycle - helping teams design, optimize, and execute tests with greater efficiency and insight. Join us to explore how UiPath enables a more intelligent, end-to-end testing approach - from requirements to execution and continuous improvement.\n\n**Agenda**\n**1\\. Introduction to Agentic Testing**\n\n* Understand the concept of Agentic Testing and its role in modern QA\n\n**2\\. From Traditional to AI\\-Powered Testing**\n\n* Explore challenges in current testing approaches\n* How AI agents improve speed, coverage, and quality\n\n**3\\. Agentic Testing in UiPath**\n\n* Discover how AI agents assist in requirement analysis, test generation, and optimization\n\n**4\\. Intelligent Test Creation & Execution**\n\n* Learn how to build and execute automated tests using AI assistance\n\n**5\\. Practical Walkthrough & Use Cases**\n\n* See Agentic Testing in action through real-world scenarios and demo\n\n**Who Should Attend?**\n\n* Manual and Automation Testers\n* QA professionals and enthusiasts\n* Software Testers\n* Application Testers",
+    "start_time": "2026-06-13T14:00:00+05:30",
+    "duration_minutes": 240,
     "attendees": [
-      "emp_1"
+      "emp_4",
+      "emp_3"
+    ]
+  },
+  {
+    "id": "_clr78ba19ll7ehagdtsn2pqj6t2kcia0clr6arjkecn6ot9edlgg",
+    "title": "Founder Fever @ EdVenture Park",
+    "description": "Get up-to-date information at: https://luma.com/ayiuw4zw?pk=g-MIAgfB08rIi0E5F\n\nAddress:\nEdVenture Park\nHyderabad, India\n\nHi there!\nWe've seen it happen again and again.\nA conversation, an idea, a problem worth solving and suddenly someone starts seeing the world differently.\nThat's Founder Fever.\nJoin Meraj Faheem for a conversation on ambition, building, and why some people can't stop creating.\nCome find out if you've caught the bug too :)\n\nHosted by Rida Mahveen & saniya mohammed",
+    "start_time": "2026-06-13T15:00:00+05:30",
+    "duration_minutes": 120,
+    "attendees": [
+      "emp_1",
+      "emp_2",
+      "emp_4",
+      "emp_3"
     ]
   }
 ]
