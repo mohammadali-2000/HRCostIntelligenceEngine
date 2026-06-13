@@ -1,0 +1,206 @@
+[
+  {
+    "id": "meet_001",
+    "title": "Alpha Arch Sync",
+    "start_time": "2026-06-10T10:00:00Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_1",
+      "emp_2"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 155.0,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "meet_002",
+    "title": "Beta App Wireframes Review",
+    "start_time": "2026-06-11T14:00:00Z",
+    "duration_minutes": 45,
+    "attendees": [
+      "emp_2",
+      "emp_3"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 108.75,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "meet_003",
+    "title": "Data Pipeline Standup",
+    "start_time": "2026-06-12T09:30:00Z",
+    "duration_minutes": 15,
+    "attendees": [
+      "emp_1",
+      "emp_5"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 40.0,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "meet_004",
+    "title": "Security Training",
+    "start_time": "2026-06-12T13:00:00Z",
+    "duration_minutes": 120,
+    "attendees": [
+      "emp_1",
+      "emp_2",
+      "emp_3",
+      "emp_4",
+      "emp_5"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 710.0,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "meet_005",
+    "title": "Quick catchup on Beta bugs",
+    "start_time": "2026-06-13T10:00:00Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1",
+      "emp_4"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 62.5,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "meet_006",
+    "title": "Vague Discussion",
+    "start_time": "2026-06-13T15:00:00Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_2",
+      "emp_3"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 145.0,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "f209cb01-2202-4494-9200-a0081d4d7c6c",
+    "title": "Project Alpha Sync",
+    "start_time": "2026-06-13T08:23:49.191209Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 37.5,
+    "ai_confidence": 0.8,
+    "ai_reasoning": "Mocked AI response due to missing API key.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "2564331e-2652-46b7-8b43-abe41b8916f8",
+    "title": "Project Alpha Sync",
+    "start_time": "2026-06-13T08:24:09.191331Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 37.5,
+    "ai_confidence": 0.0,
+    "ai_reasoning": "Error calling Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "9dc7b6a0-e3ac-49a6-a056-0e256703ddd9",
+    "title": "Project Alpha Sync",
+    "start_time": "2026-06-13T08:24:52.734550Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ],
+    "project_id": "proj_alpha",
+    "total_cost": 37.5,
+    "ai_confidence": 1.0,
+    "ai_reasoning": "The meeting title directly mentions 'Project Alpha', which matches an active project.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "d7ec486e-f101-4198-b27d-9c381e519c79",
+    "title": "string",
+    "start_time": "2026-06-13T08:29:05.677191Z",
+    "duration_minutes": 0,
+    "attendees": [
+      "string"
+    ],
+    "project_id": "unknown",
+    "total_cost": 0.0,
+    "ai_confidence": 0.0,
+    "ai_reasoning": "Meeting data (title, description, attendees) was not provided, so attribution is not possible.",
+    "is_anomaly": false,
+    "needs_review": true
+  },
+  {
+    "id": "b3f197a0-b7e9-4960-8038-9c6e1bf7acb5",
+    "title": "string",
+    "start_time": "2026-06-13T08:29:42.971537Z",
+    "duration_minutes": 0,
+    "attendees": [
+      "string"
+    ],
+    "project_id": "unknown",
+    "total_cost": 0.0,
+    "ai_confidence": 0.0,
+    "ai_reasoning": "No meeting data (title, description, attendees) was provided to analyze.",
+    "is_anomaly": false,
+    "needs_review": true
+  },
+  {
+    "id": "e01d793a-58eb-4bba-a47c-e8f523c3babc",
+    "title": "Payment Gateway Sprint Planning",
+    "start_time": "2026-06-13T08:29:48.537943Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_1"
+    ],
+    "project_id": "proj_beta",
+    "total_cost": 75.0,
+    "ai_confidence": 0.9,
+    "ai_reasoning": "The meeting title 'Payment Gateway Sprint Planning' and description 'Razorpay integration' strongly suggest development for a new application, which aligns with 'Project Beta (New App)'.",
+    "is_anomaly": false,
+    "needs_review": false
+  },
+  {
+    "id": "64e1a0b5-aa35-43f8-ad9d-ed16e2e366af",
+    "title": "Employee Wellness Initiative",
+    "start_time": "2026-06-13T08:31:23.827280Z",
+    "duration_minutes": 45,
+    "attendees": [
+      "emp_1"
+    ],
+    "project_id": "internal_ops",
+    "total_cost": 56.25,
+    "ai_confidence": 0.95,
+    "ai_reasoning": "The meeting title 'Employee Wellness Initiative' and description 'Planning mental health sessions and wellness programs for employees' directly align with internal company operations and employee well-being, which falls under 'Internal Ops & Training'.",
+    "is_anomaly": false,
+    "needs_review": false
+  }
+]

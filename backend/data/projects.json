@@ -1,0 +1,26 @@
+[
+  {
+    "id": "proj_alpha",
+    "name": "Project Alpha (Migration)",
+    "budget_limit": 5000,
+    "status": "active"
+  },
+  {
+    "id": "proj_beta",
+    "name": "Project Beta (New App)",
+    "budget_limit": 8000,
+    "status": "active"
+  },
+  {
+    "id": "proj_gamma",
+    "name": "Project Gamma (Data Pipeline)",
+    "budget_limit": 3000,
+    "status": "active"
+  },
+  {
+    "id": "internal_ops",
+    "name": "Internal Ops & Training",
+    "budget_limit": 2000,
+    "status": "active"
+  }
+]

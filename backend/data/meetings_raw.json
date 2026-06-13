@@ -1,0 +1,141 @@
+[
+  {
+    "id": "meet_001",
+    "title": "Alpha Arch Sync",
+    "description": "Discussing the cloud migration strategy for Alpha and reviewing AWS architecture diagrams.",
+    "start_time": "2026-06-10T10:00:00Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_1",
+      "emp_2"
+    ]
+  },
+  {
+    "id": "meet_002",
+    "title": "Beta App Wireframes Review",
+    "description": "Reviewing the new mobile app wireframes with product.",
+    "start_time": "2026-06-11T14:00:00Z",
+    "duration_minutes": 45,
+    "attendees": [
+      "emp_2",
+      "emp_3"
+    ]
+  },
+  {
+    "id": "meet_003",
+    "title": "Data Pipeline Standup",
+    "description": "Daily standup for the Gamma team.",
+    "start_time": "2026-06-12T09:30:00Z",
+    "duration_minutes": 15,
+    "attendees": [
+      "emp_1",
+      "emp_5"
+    ]
+  },
+  {
+    "id": "meet_004",
+    "title": "Security Training",
+    "description": "Mandatory annual security training for all staff.",
+    "start_time": "2026-06-12T13:00:00Z",
+    "duration_minutes": 120,
+    "attendees": [
+      "emp_1",
+      "emp_2",
+      "emp_3",
+      "emp_4",
+      "emp_5"
+    ]
+  },
+  {
+    "id": "meet_005",
+    "title": "Quick catchup on Beta bugs",
+    "description": "Sorting out the bug list for the upcoming beta release.",
+    "start_time": "2026-06-13T10:00:00Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1",
+      "emp_4"
+    ]
+  },
+  {
+    "id": "meet_006",
+    "title": "Vague Discussion",
+    "description": "Let's touch base about the things we talked about yesterday.",
+    "start_time": "2026-06-13T15:00:00Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_2",
+      "emp_3"
+    ]
+  },
+  {
+    "id": "f209cb01-2202-4494-9200-a0081d4d7c6c",
+    "title": "Project Alpha Sync",
+    "description": "Discussing the new UI rollout",
+    "start_time": "2026-06-13T08:23:49.191209Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ]
+  },
+  {
+    "id": "2564331e-2652-46b7-8b43-abe41b8916f8",
+    "title": "Project Alpha Sync",
+    "description": "Discussing the new UI rollout",
+    "start_time": "2026-06-13T08:24:09.191331Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ]
+  },
+  {
+    "id": "9dc7b6a0-e3ac-49a6-a056-0e256703ddd9",
+    "title": "Project Alpha Sync",
+    "description": "Discussing the new UI rollout",
+    "start_time": "2026-06-13T08:24:52.734550Z",
+    "duration_minutes": 30,
+    "attendees": [
+      "emp_1"
+    ]
+  },
+  {
+    "id": "d7ec486e-f101-4198-b27d-9c381e519c79",
+    "title": "string",
+    "description": "string",
+    "start_time": "2026-06-13T08:29:05.677191Z",
+    "duration_minutes": 0,
+    "attendees": [
+      "string"
+    ]
+  },
+  {
+    "id": "b3f197a0-b7e9-4960-8038-9c6e1bf7acb5",
+    "title": "string",
+    "description": "string",
+    "start_time": "2026-06-13T08:29:42.971537Z",
+    "duration_minutes": 0,
+    "attendees": [
+      "string"
+    ]
+  },
+  {
+    "id": "e01d793a-58eb-4bba-a47c-e8f523c3babc",
+    "title": "Payment Gateway Sprint Planning",
+    "description": "Discussion about payment processing bugs and Razorpay integration",
+    "start_time": "2026-06-13T08:29:48.537943Z",
+    "duration_minutes": 60,
+    "attendees": [
+      "emp_1"
+    ]
+  },
+  {
+    "id": "64e1a0b5-aa35-43f8-ad9d-ed16e2e366af",
+    "title": "Employee Wellness Initiative",
+    "description": "Planning mental health sessions and wellness programs for employees",
+    "start_time": "2026-06-13T08:31:23.827280Z",
+    "duration_minutes": 45,
+    "attendees": [
+      "emp_1"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "emp_1",
+    "name": "Alice Smith",
+    "role": "Senior Engineer",
+    "hourly_rate": 75,
+    "department": "Engineering"
+  },
+  {
+    "id": "emp_2",
+    "name": "Bob Jones",
+    "role": "Product Manager",
+    "hourly_rate": 80,
+    "department": "Product"
+  },
+  {
+    "id": "emp_3",
+    "name": "Charlie Davis",
+    "role": "UX Designer",
+    "hourly_rate": 65,
+    "department": "Design"
+  },
+  {
+    "id": "emp_4",
+    "name": "Diana Evans",
+    "role": "QA Engineer",
+    "hourly_rate": 50,
+    "department": "Engineering"
+  },
+  {
+    "id": "emp_5",
+    "name": "Evan Wright",
+    "role": "Data Scientist",
+    "hourly_rate": 85,
+    "department": "Data"
+  }
+]
