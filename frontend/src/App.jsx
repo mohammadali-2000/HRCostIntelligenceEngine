@@ -29,7 +29,7 @@ export default function App() {
         
         <div className="flex items-center gap-4">
           <a
-            href="http://localhost:8000/api/auth/login"
+            href="https://hrcostintelligenceengine.onrender.com/api/auth/login"
             className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100 text-blue-700 hover:bg-blue-200 transition-colors text-sm font-semibold border border-blue-200"
           >
             Connect Google Calendar

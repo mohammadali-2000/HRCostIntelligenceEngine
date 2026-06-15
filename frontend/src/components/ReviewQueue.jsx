@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { AlertCircle, CheckCircle, Clock } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://hrcostintelligenceengine.onrender.com/api';
 
 export default function ReviewQueue() {
   const [meetings, setMeetings] = useState([]);
