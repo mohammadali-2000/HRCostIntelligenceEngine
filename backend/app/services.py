@@ -17,7 +17,33 @@ class AIAttribution(BaseModel):
     confidence_score: float
     reasoning: str
 
+import urllib.request
+import urllib.error
+
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
+CLOUD_FILES = ["meetings_raw.json", "meetings_processed.json"]
+
+def _get_supabase_headers(upsert: bool = False) -> dict:
+    headers = {
+        "apikey": SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type": "application/json"
+    }
+    if upsert:
+        headers["x-upsert"] = "true"
+    return headers
+
 def load_json(filename: str) -> List[Dict[str, Any]]:
+    if filename in CLOUD_FILES:
+        url = f"{SUPABASE_URL}/storage/v1/object/app-data/{filename}"
+        req = urllib.request.Request(url, headers=_get_supabase_headers())
+        try:
+            with urllib.request.urlopen(req) as response:
+                return json.loads(response.read().decode('utf-8'))
+        except Exception as e:
+            print(f"Supabase GET Error {filename}: {e}")
+            
     filepath = os.path.join(DATA_DIR, filename)
     if os.path.exists(filepath):
         with open(filepath, "r") as f:
@@ -25,9 +51,59 @@ def load_json(filename: str) -> List[Dict[str, Any]]:
     return []
 
 def save_json(filename: str, data: Any):
+    if filename in CLOUD_FILES:
+        url = f"{SUPABASE_URL}/storage/v1/object/app-data/{filename}"
+        payload = json.dumps(data).encode('utf-8')
+        try:
+            req_put = urllib.request.Request(url, data=payload, headers=_get_supabase_headers(upsert=True), method="PUT")
+            with urllib.request.urlopen(req_put) as response:
+                pass
+        except Exception as e:
+            try:
+                # If PUT fails, try POST
+                req = urllib.request.Request(url, data=payload, headers=_get_supabase_headers(), method="POST")
+                with urllib.request.urlopen(req) as response:
+                    pass
+            except Exception as e2:
+                print(f"Supabase POST Error {filename}: {e2}")
+
     filepath = os.path.join(DATA_DIR, filename)
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)
+
+def sync_token_from_cloud(token_path: str):
+    url = f"{SUPABASE_URL}/storage/v1/object/app-data/token.json"
+    req = urllib.request.Request(url, headers=_get_supabase_headers())
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            with open(token_path, 'w') as f:
+                json.dump(data, f)
+            print("Successfully synced token.json from Supabase")
+            return True
+    except Exception as e:
+        print(f"Token download error: {e}")
+        return False
+
+def sync_token_to_cloud(token_path: str):
+    if not os.path.exists(token_path):
+        return
+    with open(token_path, 'r') as f:
+        data = json.load(f)
+    
+    url = f"{SUPABASE_URL}/storage/v1/object/app-data/token.json"
+    payload = json.dumps(data).encode('utf-8')
+    try:
+        req_put = urllib.request.Request(url, data=payload, headers=_get_supabase_headers(upsert=True), method="PUT")
+        with urllib.request.urlopen(req_put) as response:
+            print("Successfully synced token.json to Supabase")
+    except Exception as e:
+        try:
+            req = urllib.request.Request(url, data=payload, headers=_get_supabase_headers(), method="POST")
+            with urllib.request.urlopen(req) as response:
+                print("Successfully created token.json to Supabase")
+        except Exception as e2:
+            print(f"Token upload error: {e2}")
 
 def get_employees() -> Dict[str, Dict[str, Any]]:
     emps = load_json("employees.json")

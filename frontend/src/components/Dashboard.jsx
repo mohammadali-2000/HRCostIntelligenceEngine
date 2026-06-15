@@ -4,9 +4,9 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer,
   PieChart, Pie, Cell
 } from 'recharts';
-import { RefreshCw, DollarSign, Clock, AlertTriangle, PlusCircle, X } from 'lucide-react';
+import { RefreshCw, DollarSign, Clock, AlertTriangle, PlusCircle, X, EyeOff } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://hrcostintelligenceengine.onrender.com/api';
 const COLORS = ['#3b82f6', '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#64748b'];
 
 export default function Dashboard({ privacyMode, userRole }) {

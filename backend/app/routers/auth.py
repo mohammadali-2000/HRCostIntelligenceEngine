@@ -21,7 +21,7 @@ def login():
     flow = Flow.from_client_secrets_file(
         CLIENT_SECRETS_FILE,
         scopes=SCOPES,
-        redirect_uri='http://localhost:8000/api/auth/callback'
+        redirect_uri='https://hrcostintelligenceengine.onrender.com/api/auth/callback'
     )
     
     authorization_url, state = flow.authorization_url(
@@ -42,7 +42,7 @@ def callback(state: str, code: str):
     flow = Flow.from_client_secrets_file(
         CLIENT_SECRETS_FILE,
         scopes=SCOPES,
-        redirect_uri='http://localhost:8000/api/auth/callback',
+        redirect_uri='https://hrcostintelligenceengine.onrender.com/api/auth/callback',
         state=state
     )
     
@@ -56,4 +56,7 @@ def callback(state: str, code: str):
     with open(TOKEN_FILE, 'w') as f:
         f.write(credentials.to_json())
         
-    return RedirectResponse(url='http://localhost:5173')
+    from app.services import sync_token_to_cloud
+    sync_token_to_cloud(TOKEN_FILE)
+        
+    return RedirectResponse(url='https://hr-cost-intelligence-engine-five.vercel.app')

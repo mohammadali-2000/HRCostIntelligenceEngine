@@ -31,6 +31,9 @@ TOKEN_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "token.json")
 
 @router.post("/ingest")
 def trigger_ingestion():
+    from app.services import sync_token_from_cloud
+    sync_token_from_cloud(TOKEN_FILE)
+    
     if not os.path.exists(TOKEN_FILE):
         raise HTTPException(status_code=401, detail="Google Calendar not connected. Please connect first.")
         
